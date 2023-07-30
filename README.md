@@ -2,7 +2,7 @@
 Projeto para conclusão do curso de Java Script e React - Descomplica
 
 O projeto possui a seguinte estrutura:
-/public: 
+public e src
 
 src: onde foram criados os assets, componentes e os scripts
  - assets: 
@@ -12,11 +12,6 @@ src: onde foram criados os assets, componentes e os scripts
  - components: Cart, Header, Home, Product Cart
 
  - scripts: addItemToCart, getCart, removeItemCart,updateCart
-
-
-Foram implementados os seguintes 
-Componentes
-Scripts
 
 ## Tecnologias utilizadas
  - React
@@ -35,7 +30,7 @@ Scripts
 Para acessar o site local, abra no navegador
 :http://localhost:3000/
 
-Para acessar o site em produção:
+Para acessar o site:
 
 https://manauesa-trixsi-fashion.onrender.com/
 
