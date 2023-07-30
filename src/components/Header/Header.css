@@ -1,0 +1,20 @@
+header {
+  width: 100%;
+  cursor: pointer;
+  height: 50px;
+  background-color: #e9ecef;
+  font-size: 24px;
+  color: #272424;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+a {
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+  top: 10px;
+}

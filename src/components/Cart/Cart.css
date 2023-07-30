@@ -1,0 +1,76 @@
+.CartContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.CartContainer .CartRow {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  width: 90%;
+  height: 230px;
+  align-items: center;
+  padding: 25px;
+  border-bottom: 1px solid lightgray;
+
+}
+
+.remove {
+  animation: remove 200ms 0ms linear forwards;
+}
+
+@keyframes remove {
+  to {
+    height: 0;
+    opacity: 0;
+  }
+}
+
+.CartContainer .Avatar {
+  margin-right: 20px;
+}
+
+.CartContainer .Info {
+  width: 100%;
+}
+
+.CartContainer .Title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2a2727;
+}
+
+.CartContainer .Description {
+  width: 30%;
+}
+
+.CartContainer .Size {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.CartContainer .Quantity {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+  width: 100%;
+}
+
+.CartContainer .Price {
+  white-space: nowrap;
+  display: flex;
+  justify-content: flex-end;
+  color: #272424;
+  font-size: 18px;
+  font-weight: bold;
+  width: 100%;
+  margin-right: 10px;
+}
+
+.CartContainer .Remove {
+  cursor: pointer;
+  margin-left: 20px;
+}
